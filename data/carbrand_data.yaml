@@ -1,0 +1,10 @@
+path: /absolute/path/to/dataset  # or . if yaml is inside dataset folder
+train: images/train
+val: images/val
+
+nc: 3   # number of classes
+
+names:
+  0: car
+  1: bus
+  2: truck
