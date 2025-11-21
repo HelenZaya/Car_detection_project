@@ -1,0 +1,27 @@
+names:
+- audi
+- bmw
+- bus
+- byd
+- chery
+- ford
+- hyundai
+- jetour
+- lexus
+- mercedes-benz
+- mitsibushi
+- mustang
+- nissan
+- tesla
+- toyota
+- volkswagen
+nc: 16
+roboflow:
+  license: CC BY 4.0
+  project: my-first-project-vkkov
+  url: https://universe.roboflow.com/carbrandcartype-detection/my-first-project-vkkov/dataset/1
+  version: 1
+  workspace: carbrandcartype-detection
+test: ../test/images
+train: ../train/images
+val: ../valid/images

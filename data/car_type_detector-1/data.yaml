@@ -1,0 +1,19 @@
+names:
+- Sedan-sDLz
+- bus
+- coupe
+- hatchback
+- pickup
+- suv
+- truck
+- van
+nc: 8
+roboflow:
+  license: CC BY 4.0
+  project: car_type_detector-yadjv
+  url: https://universe.roboflow.com/nomuunaa/car_type_detector-yadjv/dataset/1
+  version: 1
+  workspace: nomuunaa
+test: ../test/images
+train: ../train/images
+val: ../valid/images
