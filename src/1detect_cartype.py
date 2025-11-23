@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 def main():
-    model = YOLO(r"D:\VS studio amka\object-detection-project\Car_detection_project\runs\detect\train5\weights\best.pt")
+    model = YOLO(r"D:\My documents\GitHub\Car_detection_project\runs\detect\train5\weights\best.pt")
 
     video_path = "videos/test2.mp4"
     cap = cv2.VideoCapture(video_path)
